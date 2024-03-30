@@ -42,3 +42,7 @@ body {
 	letter-spacing: 5px;
 	margin: 7px 0;
 }
+
+.email_login::placeholder{
+	color: #BDBDBD;
+}
