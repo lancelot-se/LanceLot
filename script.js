@@ -54,3 +54,18 @@ function password_show_hide() {
 	  hide_eye.style.display = "none";
 	}
   }
+
+  $(document).ready(function() {
+	// Initialize the carousel
+	$('#myCarousel').carousel();
+
+	// Handle slide next button click
+	$('.carousel-control-next').click(function() {
+	  $('#myCarousel').carousel('next');
+	});
+
+	// Handle slide previous button click
+	$('.carousel-control-prev').click(function() {
+	  $('#myCarousel').carousel('prev');
+	});
+  });

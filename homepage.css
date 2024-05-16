@@ -5,3 +5,11 @@
 .carousel-control-next {
     color: blue; 
 }
+
+#footer-1, #footer-2, #footer-3{
+    cursor: pointer;
+}
+
+#footer-2{
+    
+}
