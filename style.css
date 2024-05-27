@@ -46,3 +46,16 @@ body {
 .email_login::placeholder{
 	color: #BDBDBD;
 }
+
+#findajob::before{
+	text-decoration: none;
+}
+
+#findajob:hover::after{
+	text-decoration: underline;
+	transition: ease-in-out;
+}
+
+.clicked{
+	color: red;
+}

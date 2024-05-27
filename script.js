@@ -69,3 +69,7 @@ function password_show_hide() {
 	  $('#myCarousel').carousel('prev');
 	});
   });
+
+function changeColor(icon){
+	icon.classList.toggle('clicked');
+}
